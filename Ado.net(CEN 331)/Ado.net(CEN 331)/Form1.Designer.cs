@@ -64,6 +64,7 @@
             this.btnguncelle.TabIndex = 1;
             this.btnguncelle.Text = "Güncele";
             this.btnguncelle.UseVisualStyleBackColor = true;
+            this.btnguncelle.Click += new System.EventHandler(this.btnguncelle_Click);
             // 
             // btnsil
             // 

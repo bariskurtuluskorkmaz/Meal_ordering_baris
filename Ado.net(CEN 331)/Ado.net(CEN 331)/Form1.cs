@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.Sql;
+using System.Data.SqlClient;
 
 namespace Ado.net_CEN_331_
 {
@@ -38,6 +39,27 @@ namespace Ado.net_CEN_331_
             textBox4.Text = dataGridView1.Rows[satir].Cells["categorycategoryID"].Value.ToString();
 
         }
+
+        public void btnguncelle_Click(object sender, EventArgs e)
+        {
+            SqlConnection sqlcon = new SqlConnection();
+            sqlcon.ConnectionString = "server=HP;database=project;Trusted_Connection=true";
+            SqlCommand sqlcmd = new SqlCommand();
+            sqlcmd.Connection = sqlcon;
+            sqlcmd.CommandText = "UPDATE meal SET mealName = @mealName,mealPrice = @mealPrice,categorycategoryID = @categoryID where mealID = @mealID";
+            sqlcmd.Parameters.AddWithValue("@mealID", Convert.ToInt32(textBox1.Text));
+            sqlcmd.Parameters.AddWithValue("@mealName",textBox2.Text);
+            sqlcmd.Parameters.AddWithValue("@mealPrice",Convert.ToDouble(textBox3.Text));
+            sqlcmd.Parameters.AddWithValue("@categoryID",textBox4.Text);
+
+            sqlcon.Open();
+            sqlcmd.ExecuteNonQuery();
+            sqlcon.Close();
+            Class.meal.listele();
+            temizle();
+
+        }
+
 
 
         
