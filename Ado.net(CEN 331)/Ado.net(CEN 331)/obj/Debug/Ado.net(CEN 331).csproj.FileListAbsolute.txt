@@ -7,3 +7,12 @@ C:\Users\pc_hp\Desktop\baris.net\Ado.net(CEN 331)\Ado.net(CEN 331)\obj\Debug\Ado
 C:\Users\pc_hp\Desktop\baris.net\Ado.net(CEN 331)\Ado.net(CEN 331)\obj\Debug\Ado.net(CEN 331).csproj.GenerateResource.Cache
 C:\Users\pc_hp\Desktop\baris.net\Ado.net(CEN 331)\Ado.net(CEN 331)\obj\Debug\Ado.net(CEN 331).exe
 C:\Users\pc_hp\Desktop\baris.net\Ado.net(CEN 331)\Ado.net(CEN 331)\obj\Debug\Ado.net(CEN 331).pdb
+C:\Users\pc_hp\Desktop\meal_Ordering\Meal_ordering_baris\Ado.net(CEN 331)\Ado.net(CEN 331)\bin\Debug\Ado.net(CEN 331).exe.config
+C:\Users\pc_hp\Desktop\meal_Ordering\Meal_ordering_baris\Ado.net(CEN 331)\Ado.net(CEN 331)\obj\Debug\Ado.net(CEN 331).exe
+C:\Users\pc_hp\Desktop\meal_Ordering\Meal_ordering_baris\Ado.net(CEN 331)\Ado.net(CEN 331)\obj\Debug\Ado.net(CEN 331).pdb
+C:\Users\pc_hp\Desktop\meal_Ordering\Meal_ordering_baris\Ado.net(CEN 331)\Ado.net(CEN 331)\bin\Debug\Ado.net(CEN 331).exe
+C:\Users\pc_hp\Desktop\meal_Ordering\Meal_ordering_baris\Ado.net(CEN 331)\Ado.net(CEN 331)\bin\Debug\Ado.net(CEN 331).pdb
+C:\Users\pc_hp\Desktop\meal_Ordering\Meal_ordering_baris\Ado.net(CEN 331)\Ado.net(CEN 331)\obj\Debug\Ado.net(CEN 331).csprojResolveAssemblyReference.cache
+C:\Users\pc_hp\Desktop\meal_Ordering\Meal_ordering_baris\Ado.net(CEN 331)\Ado.net(CEN 331)\obj\Debug\Ado.net_CEN_331_.Form1.resources
+C:\Users\pc_hp\Desktop\meal_Ordering\Meal_ordering_baris\Ado.net(CEN 331)\Ado.net(CEN 331)\obj\Debug\Ado.net_CEN_331_.Properties.Resources.resources
+C:\Users\pc_hp\Desktop\meal_Ordering\Meal_ordering_baris\Ado.net(CEN 331)\Ado.net(CEN 331)\obj\Debug\Ado.net(CEN 331).csproj.GenerateResource.Cache

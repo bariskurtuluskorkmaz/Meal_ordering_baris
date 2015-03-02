@@ -39,10 +39,7 @@ namespace Ado.net_CEN_331_.Class
             SqlDataReader sdr = sqlcmd.ExecuteReader();
             DataTable table = new DataTable();
             table.Load(sdr);
-          
             sqlcon.Close();
-
-
             return table;
         }
     }
