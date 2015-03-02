@@ -20,6 +20,11 @@ namespace Ado.net_CEN_331_
             InitializeComponent();
             dataGridView1.DataSource = Class.meal.listele();
         }
+
+        public void guncelliste()
+        {
+            dataGridView1.DataSource = Class.meal.listele();
+        }
           
         public void temizle()
         {
@@ -55,7 +60,7 @@ namespace Ado.net_CEN_331_
             sqlcon.Open();
             sqlcmd.ExecuteNonQuery();
             sqlcon.Close();
-            Class.meal.listele();
+            guncelliste();
             temizle();
 
         }
