@@ -83,6 +83,7 @@
             this.btnyebikayit.TabIndex = 3;
             this.btnyebikayit.Text = "Yeni Kayit";
             this.btnyebikayit.UseVisualStyleBackColor = true;
+            this.btnyebikayit.Click += new System.EventHandler(this.btnyebikayit_Click);
             // 
             // label1
             // 
