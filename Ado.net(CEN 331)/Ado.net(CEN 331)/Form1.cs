@@ -85,6 +85,23 @@ namespace Ado.net_CEN_331_
 
         }
 
+        public void btnsil_Click(object sender, EventArgs e)
+        {
+            SqlConnection sqlcon = new SqlConnection();
+            sqlcon.ConnectionString = "server=HP;database=project;Trusted_Connection=true";
+            SqlCommand sqlcmd = new SqlCommand();
+            sqlcmd.Connection = sqlcon;
+            sqlcmd.CommandText = "DELETE from meal where mealID = @mealID";
+            sqlcmd.Parameters.AddWithValue("@mealID", Convert.ToInt32(textBox1.Text));
+
+            sqlcon.Open();
+            sqlcmd.ExecuteNonQuery();
+            sqlcon.Close();
+            temizle();
+            guncelliste();
+
+        }
+
 
 
 
@@ -92,15 +109,4 @@ namespace Ado.net_CEN_331_
     }
  }
 
-          /*  SqlConnection sqlcon = new SqlConnection();
-            sqlcon.ConnectionString = "server=HP;database=project;Trusted_Connection=true";
-            SqlCommand sqlcmd = new SqlCommand();
-            sqlcmd.Connection = sqlcon;
-            sqlcmd.CommandText = "DELETE from meal where mealID = @mealID";
-            sqlcmd.Parameters.AddWithValue("@mealID",Convert.ToInt32(textBox1.Text));
-
-            sqlcon.Open();
-            sqlcmd.ExecuteNonQuery();
-            sqlcon.Close();
-            guncelliste();
-            temizle();*/
+         

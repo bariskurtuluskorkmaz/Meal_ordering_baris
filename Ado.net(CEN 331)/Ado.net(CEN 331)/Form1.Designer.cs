@@ -74,6 +74,7 @@
             this.btnsil.TabIndex = 2;
             this.btnsil.Text = "Sil";
             this.btnsil.UseVisualStyleBackColor = true;
+            this.btnsil.Click += new System.EventHandler(this.btnsil_Click);
             // 
             // btnyebikayit
             // 
